@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-04T20:16:42 ART" name="Default suite" finished-at="2023-12-04T20:16:59 ART" duration-ms="16890">
+    <groups>
+    </groups>
+    <test started-at="2023-12-04T20:16:42 ART" name="Default test" finished-at="2023-12-04T20:16:59 ART" duration-ms="16890">
+      <class name="test_register.Register">
+        <test-method is-config="true" signature="configurateTest()[pri:0, instance:test_register.Register@38cee291]" started-at="2023-12-04T20:16:43 ART" name="configurateTest" finished-at="2023-12-04T20:16:45 ART" duration-ms="2610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configurateTest -->
+        <test-method signature="register(java.lang.String,java.lang.String)[pri:1, instance:test_register.Register@38cee291]" started-at="2023-12-04T20:16:45 ART" name="register" data-provider="Register" finished-at="2023-12-04T20:16:46 ART" duration-ms="1224" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pese12079999]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method is-config="true" signature="finishTest()[pri:0, instance:test_register.Register@38cee291]" started-at="2023-12-04T20:16:46 ART" name="finishTest" finished-at="2023-12-04T20:16:47 ART" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finishTest -->
+        <test-method is-config="true" signature="configurateTest()[pri:0, instance:test_register.Register@38cee291]" started-at="2023-12-04T20:16:47 ART" name="configurateTest" finished-at="2023-12-04T20:16:49 ART" duration-ms="2193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configurateTest -->
+        <test-method signature="registerUsrExistent(java.lang.String,java.lang.String)[pri:2, instance:test_register.Register@38cee291]" started-at="2023-12-04T20:16:49 ART" name="registerUsrExistent" data-provider="RegisterUsernameExistent" finished-at="2023-12-04T20:16:50 ART" duration-ms="1182" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ricardito]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerUsrExistent -->
+        <test-method is-config="true" signature="finishTest()[pri:0, instance:test_register.Register@38cee291]" started-at="2023-12-04T20:16:50 ART" name="finishTest" finished-at="2023-12-04T20:16:50 ART" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finishTest -->
+        <test-method is-config="true" signature="configurateTest()[pri:0, instance:test_register.Register@38cee291]" started-at="2023-12-04T20:16:50 ART" name="configurateTest" finished-at="2023-12-04T20:16:52 ART" duration-ms="2147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configurateTest -->
+        <test-method signature="registerUsrOrPassNull(java.lang.String,java.lang.String)[pri:3, instance:test_register.Register@38cee291]" started-at="2023-12-04T20:16:52 ART" name="registerUsrOrPassNull" data-provider="RegisterUsernameOrPasswordNull" finished-at="2023-12-04T20:16:53 ART" duration-ms="667" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[emidieli9090]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerUsrOrPassNull -->
+        <test-method is-config="true" signature="finishTest()[pri:0, instance:test_register.Register@38cee291]" started-at="2023-12-04T20:16:53 ART" name="finishTest" finished-at="2023-12-04T20:16:53 ART" duration-ms="122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finishTest -->
+        <test-method is-config="true" signature="configurateTest()[pri:0, instance:test_register.Register@38cee291]" started-at="2023-12-04T20:16:53 ART" name="configurateTest" finished-at="2023-12-04T20:16:55 ART" duration-ms="2464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configurateTest -->
+        <test-method signature="registerUsrOrPassNull(java.lang.String,java.lang.String)[pri:3, instance:test_register.Register@38cee291]" started-at="2023-12-04T20:16:55 ART" name="registerUsrOrPassNull" data-provider="RegisterUsernameOrPasswordNull" finished-at="2023-12-04T20:16:56 ART" duration-ms="686" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerUsrOrPassNull -->
+        <test-method is-config="true" signature="finishTest()[pri:0, instance:test_register.Register@38cee291]" started-at="2023-12-04T20:16:56 ART" name="finishTest" finished-at="2023-12-04T20:16:56 ART" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finishTest -->
+        <test-method is-config="true" signature="configurateTest()[pri:0, instance:test_register.Register@38cee291]" started-at="2023-12-04T20:16:56 ART" name="configurateTest" finished-at="2023-12-04T20:16:58 ART" duration-ms="2093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configurateTest -->
+        <test-method signature="registerNull()[pri:4, instance:test_register.Register@38cee291]" started-at="2023-12-04T20:16:58 ART" name="registerNull" finished-at="2023-12-04T20:16:59 ART" duration-ms="593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerNull -->
+        <test-method is-config="true" signature="finishTest()[pri:0, instance:test_register.Register@38cee291]" started-at="2023-12-04T20:16:59 ART" name="finishTest" finished-at="2023-12-04T20:16:59 ART" duration-ms="136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finishTest -->
+      </class> <!-- test_register.Register -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="login(failed)">
+    <parameter name="password" value="12345"/>
+    <parameter name="username" value="ricardito"/>
+    <classes>
+      <class name="test_login.Login">
+        <methods>
+          <include name="configurateTest"/>
+          <include name="finishTest"/>
+          <include name="loginIncorrect" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- test_login.Login -->
+    </classes>
+  </test> <!-- login(failed) -->
+  <test thread-count="5" name="loginIncorrect(failed)">
+    <parameter name="password" value="12345"/>
+    <parameter name="username" value="alfaro"/>
+    <classes>
+      <class name="test_login.Login">
+        <methods>
+          <include name="configurateTest"/>
+          <include name="finishTest"/>
+          <include name="loginIncorrect" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- test_login.Login -->
+    </classes>
+  </test> <!-- loginIncorrect(failed) -->
+</suite> <!-- Failed suite [Suite] -->
